@@ -1,8 +1,5 @@
-Certainly! Here's the updated README with a **"How to Run"** section added:
 
----
-
-# AI Chatbot with Gemini Integration 🚀🤖
+# AI Chatbot Integration 🚀🤖
 
 Welcome to the **AI Chatbot** project! This chatbot is not just any ordinary bot—it's powered by cutting-edge **AI models**, including the **Gemini 1.5-flash** model from Google, making it incredibly smart and interactive. Whether you're looking for quick answers, coding help, or insightful information from your PDFs, this chatbot has got you covered! 🌟
 
@@ -102,25 +99,3 @@ If you prefer interacting with the app programmatically, here are the available 
 1. **Start the Chat**: Select the AI model and input your prompt and message.
 2. **Receive AI Response**: Get an intelligent answer based on the selected model.
 3. **Retrieve Chat History**: Look back at previous conversations with ease by clicking on a specific prompt.
-
-## 👩‍💻 Contributing
-
-We love contributions! Fork the repository, make your changes, and submit a pull request. Help us make this chatbot even smarter! 🌟
-
-## 🧑‍🏫 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Author**: Your Name
-**GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-**Email**: [your.email@example.com](mailto:your.email@example.com)
-
----
-
-🔥 Ready to chat with the smartest AI out there? 🚀 Try it out now and explore endless possibilities with the power of generative AI!
-
----
-
-This section provides step-by-step instructions on how to run the app locally. It gives clarity on starting the Flask server and accessing the chatbot.
