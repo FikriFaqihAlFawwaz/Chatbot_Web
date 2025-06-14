@@ -1,7 +1,3 @@
-Sure! Here's an engaging and visually appealing version of the README for your GitHub repository:
-
----
-
 # AI Chatbot with Gemini Integration 🚀🤖
 
 Welcome to the **AI Chatbot** project! This chatbot is not just any ordinary bot—it's powered by cutting-edge **AI models**, including the **Gemini 1.5-flash** model from Google, making it incredibly smart and interactive. Whether you're looking for quick answers, coding help, or insightful information from your PDFs, this chatbot has got you covered! 🌟
