@@ -20,6 +20,18 @@ Welcome to the **AI Chatbot** project! This chatbot is not just any ordinary bot
 * **Frontend**: HTML, CSS (TailwindCSS), JavaScript (jQuery) 🌈
 * **Authentication**: Flask Sessions & werkzeug security 🔒
 
+🏃 How to Run the Application
+Once you've set up the project and the dependencies, here's how you can run the chatbot application:
+
+1. Start the Flask Development Server:
+You can run the Flask app by executing the following command:
+
+bash
+Copy
+Edit
+python app.py
+This will start the server on http://localhost:5000 (the default Flask address).
+
 ## 💬 How to Use
 
 ### Chat with the AI 🤖
