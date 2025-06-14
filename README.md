@@ -1,3 +1,7 @@
+Certainly! Here's the updated README with a **"How to Run"** section added:
+
+---
+
 # AI Chatbot with Gemini Integration 🚀🤖
 
 Welcome to the **AI Chatbot** project! This chatbot is not just any ordinary bot—it's powered by cutting-edge **AI models**, including the **Gemini 1.5-flash** model from Google, making it incredibly smart and interactive. Whether you're looking for quick answers, coding help, or insightful information from your PDFs, this chatbot has got you covered! 🌟
@@ -20,17 +24,43 @@ Welcome to the **AI Chatbot** project! This chatbot is not just any ordinary bot
 * **Frontend**: HTML, CSS (TailwindCSS), JavaScript (jQuery) 🌈
 * **Authentication**: Flask Sessions & werkzeug security 🔒
 
-🏃 How to Run the Application
+
+## 🏃 How to Run the Application
+
 Once you've set up the project and the dependencies, here's how you can run the chatbot application:
 
-1. Start the Flask Development Server:
+### 1. **Start the Flask Development Server**:
+
 You can run the Flask app by executing the following command:
 
-bash
-Copy
-Edit
+```bash
 python app.py
-This will start the server on http://localhost:5000 (the default Flask address).
+```
+
+This will start the server on `http://localhost:5000` (the default Flask address).
+
+### 2. **Access the Application**:
+
+Open a web browser and go to `http://localhost:5000` where the chatbot interface will be available.
+
+### 3. **Interact with the Chatbot**:
+
+* **Chat**: Choose between **API-Iqbal** or **Gemini-1.5-flash** as the AI model, and enter your message and prompt.
+* **Upload PDFs**: Upload a PDF document, and the chatbot will extract and make the contents available for querying.
+* **User Authentication**: Log in to save and access your previous chat history.
+
+### 4. **Optional: Use the API Endpoints**:
+
+If you prefer interacting with the app programmatically, here are the available endpoints:
+
+* **POST /chat/general/**: For general chat.
+* **POST /coder/coder/**: For coding-specific queries.
+* **POST /rag/upload/**: To upload files for RAG processing.
+* **POST /pdf/upload**: To upload PDFs and extract text for querying.
+* **GET /load\_history**: Retrieve your chat history.
+* **GET /load\_history\_by\_prompt**: Retrieve chat history based on a specific prompt.
+
+---
 
 ## 💬 How to Use
 
@@ -73,4 +103,24 @@ This will start the server on http://localhost:5000 (the default Flask address).
 2. **Receive AI Response**: Get an intelligent answer based on the selected model.
 3. **Retrieve Chat History**: Look back at previous conversations with ease by clicking on a specific prompt.
 
+## 👩‍💻 Contributing
 
+We love contributions! Fork the repository, make your changes, and submit a pull request. Help us make this chatbot even smarter! 🌟
+
+## 🧑‍🏫 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Author**: Your Name
+**GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+**Email**: [your.email@example.com](mailto:your.email@example.com)
+
+---
+
+🔥 Ready to chat with the smartest AI out there? 🚀 Try it out now and explore endless possibilities with the power of generative AI!
+
+---
+
+This section provides step-by-step instructions on how to run the app locally. It gives clarity on starting the Flask server and accessing the chatbot.
